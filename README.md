@@ -9,11 +9,17 @@ utilizando os comandos git necessários para a realização desta tarefa. Cole a
 comandos que você utilizou para a realização desta tarefa.
 
 	echo "# my_first_steps" >> README.md
+	
 	git init
+	
 	git add README.md
+	
 	git commit -m "first commit"
+	
 	git branch -M main
+	
 	git remote add origin https://github.com/Vitorrt2021/my_first_steps.git
+	
 	git push -u origin main
 
 
@@ -23,8 +29,11 @@ comandos git necessários para a realização desta tarefa. Cole aqui a cadeia d
 que você utilizou para a realização desta tarefa.
 	
 	echo "ola_mundo" >> ola_mundo.txt
+	
 	git add ola_mundo.txt
+	
 	git commit -m "Adicionando ola_mundo.txt"
+	
 	git push -u origin main
 
 4. Se não existir em seu diretório, adicione ao seu diretório um arquivo com o nome de 
@@ -34,7 +43,9 @@ realizadas no arquivo “serei_ignorado.txt” não seja controlado pelo git. Co
 que você utilizou no “.gitignore” para realizar esta tarefa.
 	
 	echo "Serei Ignorado" >> serei_ignorado.txt
+	
 	echo "serei_ignorado.txt" >> .gitignore
+	
 	Escrevi dentro do gitignore serei_ignorado.txt
 
 5. Dentro do seu diretório local, crie um arquivo chamado “README.md” e edite-o contendo 
@@ -43,5 +54,7 @@ remoto utilizando os comandos git necessários para a realização desta tarefa.
 cadeia de comandos que você utilizou para a realização desta tarefa.
 	
 	git add .
+	
 	git commit -m "Resposta da questão cinco"
+	
 	git push -u origin main
